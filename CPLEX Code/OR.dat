@@ -1,0 +1,16 @@
+/*********************************************
+ * OPL 12.5 Data
+ * Author: QEDM
+ * Creation Date: Apr 5, 2023 at 10:07:32 AM
+ *********************************************/
+Q=200;
+num_ships=3;
+num_locations=20;
+serv_time=9;
+SheetConnection
+projectdata("datasheet_orlab.xlsx");
+dist_matrix from SheetRead(projectdata,"distance!B2:V22");
+demand from SheetRead(projectdata,"Sheet2!B2:B22");
+et from SheetRead(projectdata,"Sheet1!B2:B22");
+st from SheetRead(projectdata,"Sheet1!C2:C22");
+lt from SheetRead(projectdata,"Sheet1!D2:D22");
