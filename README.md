@@ -14,5 +14,5 @@ Maersk is one of the largest shipping companies of the world with its main port 
 <img width="500" alt="gurobi_out2" src="https://github.com/Vedantpalit/Ocean-Freight-Optimization/assets/102275067/375ed5c9-54fb-405d-bb47-a29319ec1847">
 </p>
 <p align="center">
-<i>Optimal Routes for Ships</i>
+<i>Optimal Routes for n=3 Ships</i>
 </p>
